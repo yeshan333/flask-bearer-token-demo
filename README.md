@@ -1,8 +1,12 @@
 ## flask-bearer-token-demo-in-restful-apis
 
 ```shell
+pip install virtualenv
+virtualenv env
 # actviate virtual environment
 source env/Scripts/activate
+# install dependencies
+pip install -r requirements.txt
 # start test
 nose2
 ```
